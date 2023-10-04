@@ -1,8 +1,4 @@
-<style>
-body {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 h1, h2, h3 {
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-color: #a4a400; 
+    background-color: #F0F0F0;
 }
-#maindiv {background-color:rgb(238,174,202); background: radial-gradient(circle, rgba(238,174,202,1) 31%, rgba(148,205,233,1) 100%);}
-a {font-weight: bold; color:rgb(27, 122, 122)}
-</style>
