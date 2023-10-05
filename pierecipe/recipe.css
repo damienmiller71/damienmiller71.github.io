@@ -1,11 +1,13 @@
 h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
     color: #a4a400; 
     background-color: #F0F0F0;
 }
-<style>
-        #maindiv {background-color:rgb(238,174,202); background: radial-gradient(circle, rgba(238,174,202,1) 31%, rgba(148,205,233,1) 100%);}
-        a {font-weight: bold; color:rgb(27, 122, 122)}</style>
-       <style>
+#maindiv {background-color:rgb(238,174,202); background: radial-gradient(circle, rgba(238,174,202,1) 31%, rgba(148,205,233,1) 100%);}
+        a {font-weight: bold; color:rgb(27, 122, 122)} 
         blockquote{ 
-        background-color: #a4a400;}
-        </style>
+        background-color: #fcfc82;}
+
+    h1{ 
+        text-align: center;
+    }
