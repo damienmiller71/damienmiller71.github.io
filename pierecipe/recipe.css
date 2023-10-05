@@ -5,3 +5,6 @@ h1, h2, h3 {
 <style>
         #maindiv {background-color:rgb(238,174,202); background: radial-gradient(circle, rgba(238,174,202,1) 31%, rgba(148,205,233,1) 100%);}
         a {font-weight: bold; color:rgb(27, 122, 122)}</style>
+        blockquote{ 
+            background-color: rgb(255, 255, 107);
+        }
