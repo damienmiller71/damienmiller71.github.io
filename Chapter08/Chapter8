@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Student's First Name Student's Last Name -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="lab3style.css">
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div id="container">
+
+		<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	<label for="username">Username: <span class="rqd">*</span> </label> <br/>
+	<input type="text" name="Username" id="username"
+         required> <br/><br/>
+		 
+	<label for="Password">Password: <span class="rqd">*</span> </label> <br/>
+	<input type="password" name="Password" id="Password"
+         required> <br/><br/>
+
+	<label for="Date of Birth">Date of Birth: <span class="rqd">*</span> </label> <br/>
+	<input type="text" name="Dateofbirth" id="DateofBirth"
+         required> <br/><br/>
+	</main>
+
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		<p>Designed by:Damien Miller</p>
+	</footer>
+
+	</div>
+	
+</body>
+</html>
