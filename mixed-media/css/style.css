@@ -1,4 +1,4 @@
-body{ background: url"daniel-zbroja-74DGxX154b8-unsplash.jpg";}
+body{ background: url("daniel-zbroja-74DGxX154b8-unsplash.jpg");}
 table, td, th {
     border: 1px solid black;
 border-collapse: collapse;
