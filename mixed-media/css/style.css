@@ -1,8 +1,8 @@
-<style>
 .table {border: 1px solid black;
 border-collapse: collapse;
 padding: 10px;
 }
 .li { display: inline;
-    margin: right 10px;}
-    </style>
+    margin: right;}
+    h3 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;}
