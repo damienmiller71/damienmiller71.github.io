@@ -2,3 +2,5 @@
 border-collapse: collapse;
 padding: 10px;
 }
+.li { display: inline;
+    margin: right 10px;}
