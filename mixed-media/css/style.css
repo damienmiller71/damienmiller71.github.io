@@ -1,3 +1,4 @@
+<style>
 body{ background: url(daniel-zbroja-74DGxX154b8-unsplash.jpg);}
 table, td, th {
     border: 1px solid black;
@@ -12,3 +13,4 @@ th { background-color: rgb(14, 133, 133);}
     margin: right;}
     h3 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;}
+    </style>
