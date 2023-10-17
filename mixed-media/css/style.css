@@ -10,7 +10,9 @@ th,td { background-color: rgb(14, 133, 133);}
     .rheader {background-color: rgb(42, 136, 105);}
     
 
-    ul { display: inline;
+    ul, li { 
+        color:white;
+        display: inline;
     margin: right;}
     h3 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;}
