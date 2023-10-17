@@ -1,12 +1,14 @@
 body{ background: url("daniel-zbroja-74DGxX154b8-unsplash.jpg");}
 table, td, th {
+    font-weight: bold;
     border: 1px solid black;
 border-collapse: collapse;
 padding: 10px;
 }
 
-th { background-color: rgb(14, 133, 133);}
+th,td { background-color: rgb(14, 133, 133);}
     .rheader {background-color: rgb(42, 136, 105);}
+    
 
     ul { display: inline;
     margin: right;}
