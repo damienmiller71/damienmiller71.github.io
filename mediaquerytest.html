@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query Test</title>
     <style>
-        .topnav { overflow: hidden; background: #333; }
+        .topnav { 
+            overflow: hidden;
+            background: #333; 
+            top: 0;
+            left:0;
+            width: 100%;
+            position: fixed;
+            z-index: 999; }
         .topnav a { 
             float: left;
             display: block;
@@ -23,17 +30,36 @@
         @media only screen and (orientation: landscape) {
             body { background: lightblue; }
         }
+
+        #top { padding-top: 30vh;}
     </style>
 </head>
 <body>
+    <nav class="topnav">
+        <a href="#"Link>Top</a>
+            <a href="#"Link>Bottom</a>
+            <a href="#"Link>Link</a>
+    </nav>
+<div id-="top">
     <h1>Here's my navbar</h1>
     <p>Media queries allow for responsive resizing of elements
         based on screen width (usually).</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Nullam consequat, lectus et porta aliquam, quam tortor interdum risus, ac blandit turpis metus eu nunc. Sed sollicitudin ante sit amet risus sodales viverra ac sed enim. 
+        Curabitur aliquet lacus non semper fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat, nunc id ultricies vestibulum, nisl libero tincidunt nisl, vel condimentum neque urna in est.
+         Aenean vitae eros imperdiet, interdum sapien ut, ultricies ex. Aliquam in est non nunc congue lacinia. Praesent id enim risus. Nunc ultricies quam ac mi eleifend convallis. Donec convallis in lectus sit amet iaculis. Sed porta neque vel nisl sodales, sed pharetra sem efficitur. 
+         Donec in erat a ante consectetur maximus eu vel ex.</p>
 
-        <div class="topnav">
-            <a href="#"Link></a>
-            <a href="#"Link></a>
-            <a href="#"Link></a>
-        </div>
+         <p>Vivamus ipsum nisl, ullamcorper a lorem non, tincidunt sodales arcu. Duis id efficitur dui. Aliquam hendrerit sem commodo magna ornare, id scelerisque odio commodo. 
+            Nulla sit amet arcu id arcu convallis efficitur. 
+            Phasellus elementum tellus et massa fermentum tempor. Mauris vel neque libero. Curabitur vitae eros velit. Etiam condimentum mauris eget orci condimentum hendrerit. 
+            Maecenas posuere vel massa vitae vestibulum. Mauris nunc erat, tristique at iaculis eget, auctor sed ipsum. Curabitur finibus tincidunt neque consectetur tincidunt.
+             Pellentesque mollis non arcu sit amet iaculis. Nunc pulvinar velit nec metus vulputate, sed tincidunt eros pretium. Donec et elit condimentum, vehicula mauris id, viverra sapien. 
+            In eu purus sit amet neque porta pellentesque.</p>
+    </div>
+    <div id="bot">
+        <b>Here's the bottom of the page!</b>
+    </div>
+
 </body>
 </html>
