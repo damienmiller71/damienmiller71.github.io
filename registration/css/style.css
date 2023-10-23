@@ -1,1 +1,4 @@
 h1{color: rgb(65, 64, 64) }
+h1,h3 {font-family:"Freight Sans Bold, Lucida Grande", Tahoma, Verdana, Arial, sans-serif;}
+label { font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;}
+body { background: rgb(231, 231, 231); }
