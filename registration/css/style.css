@@ -6,8 +6,8 @@ body { background: rgb(231, 231, 231); }
     text-align: center;
     font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
     color: white;
-    background: rgb(184,251,145);
-background: radial-gradient(circle, rgba(184,251,145,1) 31%, rgba(56,145,15,1) 100%);
+    background: rgb(56,145,15);
+background: radial-gradient(circle, rgba(56,145,15,1) 21%, rgba(56,145,15,1) 54%, rgba(184,251,145,1) 100%);
     font-size: 24px;
     padding: 15px;
     border: 2px solid white;
