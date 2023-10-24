@@ -3,6 +3,7 @@ h1,h3 {font-family:"Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial,
 label { font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;}
 body { background: rgb(231, 231, 231); }
 #sbutton {
+    text-align: center;
     font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
     color: white;
     background-color: rgb(56, 145, 15);
