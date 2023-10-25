@@ -16,6 +16,6 @@ body { background: rgb(231, 231, 231); }
 }
 p{ font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 font-size: 14pt;}
-div{ margin-left: 0;
+div{ margin-left: 10%;
 max-width: 50%;
 min-width: 10%;}
