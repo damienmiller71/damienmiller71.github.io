@@ -15,7 +15,7 @@ body { background: rgb(231, 231, 231); }
     border-radius: 10px; /*round corners */ 
 }
 p{ font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-font-size: 14pt;}
-div{ margin-left: 10%;
-max-width: 50%;
+font-size: 12pt;}
+div{ margin-left: 15%;
+max-width: 75%;
 min-width: 10%;}
