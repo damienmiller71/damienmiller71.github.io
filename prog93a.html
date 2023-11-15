@@ -8,11 +8,21 @@
 <body>
     <label for="kw">Kilowatts Used: </label>
     <input type="number" id="kw" name="kw">
-    <label for="h">Hours: </label>
-    <input type="number" id="h" name="h">
+    <script>
+        function calc(){
+        var kw = document.getElementById('kw').value;
+        kw = Number(kw);
+        var baserate = kw * 0.0475;
+        var surcharge = baserate * 0.10;
+        var citytax = baserate * 0.03;
+        var subtotal = baserate + surcharge + subtotal;
+        var latefee = subtotal * 0.04;
+        var total = latefee + subtotal;
+        document.writeln('subtotal: ' + subtotal);
+        document.writeln('total: ' + total);
+        }
+    </script>
     <button onclick="calc()
-    var kw = document.getElementById('kw').value;
-    var h=document.getElementById('h').value;
     ">Calculate</button>
     <p id="output"></p>
 </body>
