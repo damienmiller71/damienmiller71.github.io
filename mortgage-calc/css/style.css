@@ -1,0 +1,9 @@
+body {
+    background:rgb(60, 158, 255)
+}
+button{ text-align: center;
+    font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    background: linear-gradient(red, orange);
+    padding: 1px;
+    border: 2px solid white;
+    border-radius: 10px;}
