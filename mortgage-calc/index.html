@@ -25,7 +25,7 @@
             var T = Number(document.getElementById("T").value);
             var M = Number(document.getElementById("M").value);
             var N = 12;
-            var B = (P*(1 + (R/N))**(N*T)) - (( M*(1 + (R/N))**(N*T)-1)/(R/N));
+            var B = (P*(1 + (R/N))**(N*T)) - (( M*((1 + (R/N))**(N*T)-1))/(R/N));
             var output = document.getElementById("output");
             output.innerText="$"+ B.toFixed(2);
         }
