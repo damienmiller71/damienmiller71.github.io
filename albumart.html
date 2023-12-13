@@ -29,9 +29,52 @@
 
             //customize mouse
             noCursor(); // Hide mouse
-            noStroke();
+            noStroke(); // Disabled outline
             fill('white');
             circle(mouseX, mouseY, 5);
+
+            // Main graph
+            push(); // Store current drawing settings
+            translate(width/2, height/2); // Offset to mid of screen
+            rotate(angle);
+            angle += map(mouseX, 0, width, -0.1, 0.1);
+            noFill();
+            stroke('white');
+            strokeWeight(1);
+            for (var lcv = 0; lcv < cirNum; lcv++) {
+                arc(0, 0, cirSize + gap * lcv, cirSize + gap * lcv, angle * lcv, 360 - angle/2);
+            }
+            pop(); // Restores pushed drawing style
+
+            // Title and subtitle
+            push();
+            translate(width/2, height-90);
+            noStroke();
+            textFont('Arial');
+            textSize(10);
+            textAlign(CENTER, CENTER);
+            text("Album Title Here", 0, 0); // x, y
+            textSize(8);
+            text("This is a demo", 0, 20);
+            pop();
+
+            // Border
+            push();
+            translate(width/2, height/2);
+            noFill();
+            stroke('white');
+            strokeWeight('2');
+            rectMode(CENTER);
+            rect(0, 0, rectSize, rectSize);
+
+
+            // Random Noise in background
+            stroke('white');
+            strokeWeight(1);
+            for (var lcv = 0; lcv < ptNum; lcv++) {
+                point(random(-rectSize/2, rectSize/2),
+                      random(-rectSize/2, rectSize/2));
+            }
         }
     </script>
 </body>
