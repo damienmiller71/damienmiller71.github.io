@@ -4,61 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-<style>
-    p { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;}
-    h1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;}
-</style>
 <body>
-    <div class="container-fullwidth">
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <!--Use navbar-default instead of inverse for light theme -->
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed"
-                    data-toggle="collapse" data-target="#main-menu"
-                    aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand">My Portfolio Home Page</a>
-                </div>
-                <div id="main-menu" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                    <!-- set class "active" for the current page ONLY-->
-                    <li class="active"><a href="#"><i class="bi bi-house-fill"></i> Home</a></li>
-                    <li><a href="#"><i class="bi bi-pencil-fill"></i> Blog</a></li>
-                    <li><a href="#"><i class="bi bi-phone-fill"></i> Contact</a></li>
-                    <li><a href="#"><i class="bi bi-person-fill"></i> About</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div class="container">
-        <div class="row">
+
             <div class="page-header">
-                <h1>My Portfolio</h1>
+               <center> <h1>My Portfolio</h1></center>
             </div>
-            <div class="col-md-9" id="main-content">
-                <p>My Name is Damien Miller and I am 17 years old. Some of my hobbies include bowling,
-                    listening to music, and playing video games.
-                I offer quick and esily accessible web pages like a cool color changing clock.</p>
-                <br>
-                <p>I also offer quick tables with photos and videos, recipe pages,
-                    as well as quick lists.
-                </p>
-                <a href="contact-form.html"><u><b>Contact Form</b></u></a>
-            </div>
-        </div>
+            <p>My Name is Damien Miller and I am 17 years old. Some of my hobbies include bowling,
+                listening to music, and playing video games.
+            I offer quick and esily accessible web pages like a cool color changing clock.</p>
+            <br>
+            <p>I also offer quick tables with photos and videos, recipe pages,
+                as well as quick lists.
+            </p>
+
+            <a href="about.html">More About Me</a>
+
+        <center><h1>Contact Form</h1></center>
+    
+    <form action="#" method="post" id="contactform"
+        style="text-align:center;" onsubmit="alert('not implemented yet');">
+    <div id="fdiv">
+        <label for="myname">Name: <span class="rqd">*</span> </label> <br/>
+        <input type="text" name="myname" id="myname"
+         required> <br/><br/>
+
+        <label for="myemail">Email: <span class="rqd">*</span></label> <br/>
+        <input type="text" name="myemail" id="myemail"
+         required> <br/><br/>
+
+        <label for="subject">Subject: <span class="rqd">*</span></label> <br/>
+        <input type="text" name="subject" id="subject"
+         placeholder="CS 101" required> <br/><br/>
+
+         <span class="rqd">*</span>
+         <textarea name="tbody" id="tbody" placeholder="Enter message..."
+                required></textarea> <br/><br/>
+
+                <label for="priority">Priority: <span class="rqd">*</span></label> <br/>
+                <select name="priority" id="priority" required>
+                    <option disabled selected value>-- Select and Option --</option>
+                    <option value="low">Low</option>
+                    <option value="med">Medium</option>
+                    <option value="high">High</option>
+                    <option value="crit">Critical</option>
+                </select> <br/><br/>
+
+                <label for="attach">Attachments: </label> <br/>
+                <input type="file" name="attach" id="attach"> <br/> <br/>
+
+                <label for="flwup">Do you want a follow-up email?</label> <br/>
+                <input type="radio" name="flwup" id="flwupy" value="yes" />
+                <label for="flwupy" class="flwlbl">Yes</label>
+                <input type="radio" name="flwup" id="flwupn" value="no" />
+                <label for="flwupn" class="flwlbl">No</label> <br/><br/>
+
+                <input id="humans" type="hidden" name="humans">
+
+                <input type="submit" value="Submit" id="sbutton"/>
     </div>
+    </form>
 </body>
 </html>
