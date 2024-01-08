@@ -27,7 +27,8 @@ input, textarea { max-width: 250px; }
 .flwlbl { font-weight: optional;}
 form {min-width: 550px; margin-bottom: 20px;}
 .rqd { color: red; font-weight: normal; }
-
+u { 
+    color: rgb(45, 188, 255)}
 #attach { 
     background: white; !important;
     border: 1px solid gray;
@@ -42,4 +43,43 @@ form {min-width: 550px; margin-bottom: 20px;}
     margin: 0 auto;
     /* 30 top/bot, 15 l/r*/
     padding: 30px; 15px;
+}
+<>
+/* Change the highlight color */
+*::selection { background: pink;}
+*::-moz-selection { background: pink;}
+
+a:link { /* Link that hasn't been visited */
+    color: rgb(45, 188, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover { 
+    color: rgb(255, 255, 255);
+    background: gray;
+    text-decoration: underline;
+}
+
+a:visited { color: rgb(255, 255, 255);}
+a:active { color: rgb(0, 0, 0);}
+
+input {
+    /* top right bottom left */
+    padding: 6px 12px 6px 12px;
+    border: 2px solid purple;
+    color: blue
+}
+input [type=text] {color: purple;}
+input [type=text]:focus {
+    color: blueviolet;
+    border: 5px solid plum;
+}
+input[type=submit]:hover { background: yellow;}
+input[type=submit]:active { background: orangered;}
+
+img { border: 3px solid transparent;}
+img:hover { border: 3px solid red;}
+dialog{
+    background-color: #555;
 }
