@@ -1,12 +1,14 @@
+*{font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;}
 h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(204, 248, 242)
 }
-p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- color: rgb(204, 248, 242);
+p{
+ color: rgb(0, 255, 157);
  font-size: 18px;
+ font-weight: 100 !important;
 }
 body{
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(61,61, 61);
 }
 #sbutton{
     color:white;
