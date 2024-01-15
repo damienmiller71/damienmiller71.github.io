@@ -81,7 +81,7 @@ input[type=submit]:hover { background: yellow;}
 input[type=submit]:active { background: orangered;}
 
 img { border: 3px solid transparent;}
-img:hover { border: 3px solid red;}
+img:hover { border: 3px solid rgb(200, 0, 255);}
 dialog{
     background-color: #555;
 }
