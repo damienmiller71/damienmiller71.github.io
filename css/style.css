@@ -32,7 +32,7 @@ form {min-width: 550px; margin-bottom: 20px;}
 u { 
     color: rgb(45, 188, 255)}
 #attach { 
-    background: white; !important;
+    background: white !important;
     border: 1px solid gray;
     border-radius: 2px;
 }
@@ -44,9 +44,9 @@ u {
     text-align: center;
     margin: 0 auto;
     /* 30 top/bot, 15 l/r*/
-    padding: 30px; 15px;
+    padding: 30px 15px;
 }
-<>
+
 /* Change the highlight color */
 *::selection { background: pink;}
 *::-moz-selection { background: pink;}
@@ -86,9 +86,14 @@ dialog{
     background-color: #555;
 }
 ul {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: sticky;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 0px 0px 0px;
     overflow: hidden;
     background-color: #000000;
   }
@@ -101,11 +106,13 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
+
   }
   
   /* Change the link color to #111 (black) on hover */
   li, a:hover {
+    border: 3px solid silver;
     background-color: #000000;
   }
