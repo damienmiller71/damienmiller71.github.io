@@ -90,6 +90,7 @@ ul {
     left: 0;
     bottom: 0;
     right: 0;
+    z-index: 999;
     position: sticky;
     list-style-type: none;
     margin: 0;
@@ -115,4 +116,7 @@ ul {
   li, a:hover {
     border: 3px solid silver;
     background-color: #000000;
+  }
+  footer{
+    float: left;
   }
