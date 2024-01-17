@@ -101,6 +101,7 @@ ul {
   
   li {
     float: left;
+    z-index: 999;
   }
   
   li, a {
